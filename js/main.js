@@ -24,12 +24,14 @@ $(document).ready(function(){
     }
 
     //open menu canvas
-    $(".js-open-canvas").click(function(){
+    $(".js-open-canvas").click(function(e){
+        e.preventDefault();
         $(".canvas-menu").addClass("open");
     })
 
     //close canvas menu
-    $(".js-close-canvas").click(function(){
+    $(".js-close-canvas").click(function(e){
+        e.preventDefault();
         $(".canvas-menu").removeClass("open");
     })
 
