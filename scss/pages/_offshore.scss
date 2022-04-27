@@ -1,0 +1,949 @@
+#offshore{
+    .title-left{
+        margin-bottom: 58px;
+        h3{
+            font-size: 48px;
+            font-weight: 700;
+            color: $main-color;
+            position: relative;
+            margin-bottom: 35px;
+            text-transform: uppercase;
+            &::after{
+                content: "";
+                position: absolute;
+                left: 0;
+                bottom: -11px;
+                width: 48px;
+                height: 4px;
+                background-color: $main-color;
+                z-index: 1;
+            }
+        }
+        .desc{
+            font-size: 18px;
+            color: #686868;
+        }
+    }
+    .title-center{
+        margin-bottom: 58px;
+        text-align: center;
+        h3{
+            font-size: 48px;
+            font-weight: 700;
+            color: $main-color;
+            position: relative;
+            margin-bottom: 29px;
+            text-transform: uppercase;
+            &::after{
+                content: "";
+                position: absolute;
+                left: 50%;
+                transform: translateX(-50%);
+                bottom: -11px;
+                width: 48px;
+                height: 4px;
+                background-color: $main-color;
+                z-index: 1;
+            }
+        }
+        .desc{
+            font-size: 20px;
+            color: #686868;
+        }
+    }
+
+    .r-big-banner{
+        width: calc(100% - 132px);
+        max-width: 100%;
+        margin-top: 33px;
+    }
+
+    .r-page-title{
+        margin-top: -190px;
+        h3{
+            background-color: #fff;
+            padding: 44.5px 40px;
+            color: $main-color;
+            font-weight: 700;
+            font-size: 86px;
+            line-height: 101px;
+            text-align: center;
+            border-radius: 8px 8px 0px 0px;
+        }
+    }
+
+    .r-what{
+        margin-top: 118px;
+        .container-fluid{
+            width: 1630px;
+            max-width: 100%;
+        }
+        .box{
+            display: flex;
+            align-items: flex-end;
+            .image{
+                width: 555px;
+                margin-right: 121px;
+            }
+            .content{
+                width: calc(100% - 676px);
+                h3{
+                    font-weight: 700;
+                    font-size: 56px;
+                    line-height: 90px;
+                    color: $main-color;
+                    margin-bottom: 55px;
+                    margin-top: -20px;
+                }
+                p{
+                    font-weight: 500;
+                    font-size: 32px;
+                    line-height: 64px;
+                    color: $main-color;
+                    width: 699px;
+                    max-width: 100%;
+                    margin-bottom: -11px;
+                }
+            }
+        }
+    }
+
+    .r-bring{
+        margin-top: 185px;
+        .container-fluid{
+            width: 1771px;
+            max-width: 100%;
+        }
+        .box{
+            display: flex;
+            align-items: flex-end;
+            justify-content: flex-end;
+            .content{
+                flex: 0 0 44.5%;
+                max-width: 44.5%;
+                h3{
+                    font-weight: 700;
+                    font-size: 56px;
+                    line-height: 90px;
+                    color: $main-color;
+                    margin-bottom: 55px;
+                    margin-top: -20px;
+                }
+                p{
+                    font-weight: 500;
+                    font-size: 32px;
+                    line-height: 64px;
+                    color: $main-color;
+                    max-width: 100%;
+                    margin-bottom: -8px;
+                    padding-right: 11px;
+                }
+            }
+        }
+    }
+    
+    .r-service{
+        margin-top: 171px;
+        padding: 54px 0;
+        position: relative;
+        text-align: center;
+        color: #fff;
+        .inner{
+            position: absolute;
+            width: calc(100% - 132px);
+            height: 100%;
+            top: 0;
+            left: 132px;
+            right: 0;
+            background: url("../images/offshore/service-bg.png") no-repeat left center;
+            background-size: cover;
+            z-index: -1;
+        }
+        h3.title{
+            font-weight: 700;
+            font-size: 80px;
+            line-height: 100px;
+        }
+        .box{
+            margin-top: 54px;
+            h5{
+                font-weight: 700;
+                font-size: 50px;
+                line-height: 66px;
+                margin-top: 25px;
+            }
+        }
+    }
+
+    .r-archivement{
+        margin-top: 163px;
+        .title{
+            text-align: center;
+            font-weight: 700;
+            font-size: 86px;
+            line-height: 101px;
+            color: $main-color;
+            margin-bottom: 100px;
+        }
+        .row{
+            margin-left: -15px;
+            margin-right: -15px;
+            > div{
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+        }
+        .box{
+            color: $main-color;
+            position: relative;
+            padding-left: 34px;
+            &.box-1{
+                &::before{
+                    background-color: $main-color;
+                }
+            }
+            &.box-2{
+                &::before{
+                    background-color: #FDE002;
+                }
+            }
+            &.box-3{
+                &::before{
+                    background-color: #EB2725;
+                }
+            }
+            &.box-4{
+                &::before{
+                    background-color: #00BE90;
+                }
+            }
+            &::before{
+                content: "";
+                width: 11px;
+                height: 159px;
+                position: absolute;
+                left: 0;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+            h2{
+                font-weight: 900;
+                font-size: 70px;
+                line-height: 82px;
+                margin-bottom: 3px;
+            }
+            p{
+                font-weight: 500;
+                font-size: 30px;
+                line-height: 39px;
+            }
+        }
+    }
+
+    .r-reason{
+        margin-top: 191px;
+        background: url("../images/offshore/reason-bg.png") no-repeat center;
+        background-size: cover;
+        color: #fff;
+        padding: 152px 0 53px;
+        position: relative;
+       .label{
+            position: absolute;
+            right: calc(100% + 88px);
+            top: calc(50% + -13px);
+            transform: translateY(-50%);
+        }
+        h1{
+            font-size: 64px;
+            font-weight: 900;
+            margin-bottom: 62px;
+        }
+        .box{
+            display: flex;
+            align-items: center;
+            margin-bottom: 114px;
+            .number{
+                margin-right: 19px;
+                color: transparent;
+                -webkit-text-stroke-width: 0.3px;
+                -webkit-text-stroke-color: #fff;
+                font-size: 76px;
+                font-weight: 900;
+                line-height: 1;
+            }
+            h3{
+                font-size: 32px;
+                font-weight: 700;
+                line-height: 40px;
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    .r-cooperate{
+        padding: 123px 0 59px;
+        .title-left{
+            margin-bottom: 76px;
+        }
+        .step{
+            &.step-1{
+                padding-bottom: 133px;
+                .inner{
+                    .number{
+                        margin-left: 13px;
+                        margin-top: 59px;
+                        &::after{
+                            content: "";
+                            width: 1px;
+                            height: 440px;
+                            background-color: $main-color;
+                            position: absolute;
+                            top: 100%;
+                            left: 50%;
+                            transform: translateX(-50%);
+                            z-index: 1;
+                        }
+                    }
+                    .content{
+                        width: 358px;
+                        max-width: 100%;
+                        margin-top: 47px;
+                        margin-left: 10px;
+                    }
+                }
+            }
+            &.step-2{
+                .inner{
+                    justify-content: flex-start;
+                    .number{
+                        margin-left: 13px;
+                        &::after{
+                            content: "";
+                            width: 1px;
+                            height: 290px;
+                            background-image: linear-gradient(to bottom, rgba(0, 99, 170, 1), rgba(0, 99, 170, 0));
+                            position: absolute;
+                            top: 100%;
+                            left: 50%;
+                            transform: translateX(-50%);
+                            z-index: 1;
+                        }
+                    }
+                    .content{
+                        margin-top: -8px;
+                        margin-left: 39px;
+                        margin-bottom: 39px;
+                        p{
+                            width: 358px;
+                            max-width: 100%;
+                        }
+                    }
+                    .image{
+                        margin-left: 93px;
+                        .box{
+                            background: #EDEDED;
+                            border-radius: 16px;
+                            height: 100%;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-between;
+                            .top{
+                                padding: 23px 32px 0;
+                                margin-bottom: -7px;
+                                h5{
+                                    font-size: 24px;
+                                    font-weight: 700;
+                                    color: #494949;
+                                    margin-bottom: 6px;
+                                }
+                                p{
+                                    font-size: 15px;
+                                    color: #494949;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .inner{
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                .number{
+                    width: 42px;
+                    height: 42px;
+                    border-radius: 50%;
+                    background: $main-color;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: #fff;
+                    font-size: 24px;
+                    font-weight: 900;
+                    position: relative;
+                    z-index: 2;
+                }
+                .content{
+                    h3{
+                        font-size: 48px;
+                        font-weight: 700;
+                        color: #121212;
+                        margin-bottom: 16px;
+                    }
+                    p{
+                        font-size: 18px;
+                        line-height: 32px;
+                        color: #434343;
+                    }
+                }
+                .image{
+                   
+                }
+            }
+        }
+    }
+
+    .r-step{
+        padding: 79px 0 138px;
+        position: relative;
+        &::before{
+            content: url("../images/offshore/step-bg.png");
+            position: absolute;
+            bottom: -104px;
+            left: -8px;
+            z-index: 2;
+        }
+        .title-center{
+            margin-bottom: 125px;
+            .desc{
+                font-size: 18px;
+                color: #494949;
+            }
+        }
+        .step-carousel{
+            padding-right: 65px;
+            &::before{
+                content: "";
+                position: absolute;
+                right: 100%;
+                top: 0;
+                width: 10000%;
+                height: 100%;
+                background-color: #fff;
+                z-index: 1;
+            }
+            .owl-stage-outer{
+                overflow: visible;
+            }
+            .owl-stage{
+                display: flex;
+            }
+            .item{
+                padding: 31px 15px 12px 24px;
+                color: #fff;
+                background: $main-color;
+                box-shadow: 0px 4px 9px rgba(189, 189, 189, 0.45);
+                border-radius: 10px;
+                height: 100%;
+                .top{
+                    display: flex;
+                    justify-content: space-between;
+                    margin-bottom: 55px;
+                    .number{
+                        font-size: 48px;
+                        font-weight: 900;
+                        line-height: 1;
+                    }
+                    .text{
+                        font-size: 48px;
+                        font-weight: 900;
+                        -webkit-text-stroke-width: 0.3px;
+                        -webkit-text-stroke-color: #fff;
+                        color: transparent;
+                        text-transform: uppercase;
+                        line-height: 1;
+                    }
+                }
+                h3{
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 28px;
+                    margin-bottom: 14px;
+                }
+                p{
+                    font-size: 14px;
+                    line-height: 16px;
+                    color: #E2E2E2;
+                }
+            }
+        }
+    }
+
+    .r-faq{
+        margin-top: -20px;
+        .title-center{
+            margin-bottom: 75px;
+            h3{
+                font-weight: 700;
+                font-size: 38px;
+                line-height: 55px;
+                letter-spacing: -0.01em;
+                font-family: 'Noto Sans JP';
+                &::after{
+                    bottom: 1px;
+                    width: 328px;
+                }
+            }
+        }
+        #accordion{
+            border-top: 1px solid #464646;
+        }
+        .card{
+            border: none;
+            border-bottom: 1px solid #464646;
+            border-radius: 0;
+            .card-header{
+                background: transparent;
+                border: none;
+                padding: 0;
+            }
+            button{
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 19px;
+                color: $main-color;
+                border: none;
+                background-color: transparent;
+                padding: 0;
+                width: 100%;
+                text-align: left;
+                padding: 28px 50px 28px 0;
+                background: url("../images/home/icon-minus.png") no-repeat calc(100% - 7px) center;
+                &.collapsed{
+                    background: url("../images/home/icon-plus.png") no-repeat calc(100% - 7px) center;
+                }
+            }
+            .card-body{
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 25px;
+                color: #464646;
+                padding: 0 111px 10px 0;
+                margin-top: -4px;
+            }
+        }
+    }
+
+    .r-contact{
+        margin-top: 175px;
+    }
+}
+
+@media (max-width: 1800px){
+    #offshore .r-step::before{
+        display: none;
+    }
+    #offshore .r-service::before{
+        display: none;
+    }
+    #offshore .r-reason .label{
+        display: none;
+    }
+    #offshore .r-service .inner{
+        width: 100%;
+        left: 0;
+        background-position: center;
+    }
+}
+
+@media (max-width: 1366px){
+    #offshore .r-big-banner{
+        width: 100%;
+    }
+}
+
+@media (max-width: 1199px){
+    #offshore .r-reason {
+        margin-top: 80px;
+    }
+    #offshore .r-archivement .box::before {
+        width: 2px;
+        height: 75px;
+    }
+    #offshore .r-archivement .box {
+        padding-left: 20px;
+    }
+    #offshore .r-archivement .box p {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    #offshore .r-archivement .box h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    #offshore .r-archivement {
+        margin-top: 80px;
+    }
+    #offshore .r-archivement .title {
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 30px;
+    }
+    #offshore .r-service .box h5 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    #offshore .r-service {
+        margin-top: 100px;
+    }
+    #offshore .r-service h3.title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    #offshore .r-big-banner {
+        margin-top: 0;
+    }
+    #offshore .r-bring {
+        margin-top: 70px;
+    }
+    #offshore .r-bring .box .image{
+        margin-top: 40px;   
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    #offshore .r-bring .box .content p {
+        font-size: 14px;
+        line-height: 24px;
+        max-width: 100%;
+        margin-bottom: 0;
+        padding-right: 0;
+    }
+    #offshore .r-bring .box .content h3 {
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 20px;
+        margin-top: 0;
+    }
+    #offshore .r-bring .box{
+        flex-direction: column;
+    }
+    #offshore .r-bring .box .content {
+        flex: 0 0 100%;
+        max-width: 100%;
+        text-align: center;
+    }
+    #offshore .r-what {
+        margin-top: 30px;
+    }
+    #offshore .r-what .box .content p {
+        font-size: 14px;
+        line-height: 24px;
+        margin-bottom: 0;
+        width: 100%;
+    }
+    #offshore .r-what .box .content h3 {
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 20px;
+        margin-top: 0;
+    }
+    #offshore .r-what .box .content {
+        width: 100%;
+        margin-top: 50px;
+        text-align: center;
+    }
+    #offshore .r-what .box .image {
+        width: 100%;
+        margin-right: 0;
+        display: flex;
+        justify-content: center;
+    }
+    #offshore .r-what .box{
+        flex-direction: column;
+    }
+    #offshore .r-page-title {
+        margin-top: -90px;
+    }
+    #offshore .r-page-title h3 {
+        padding: 25px;
+        font-size: 30px;
+        line-height: 40px;
+    }
+    #offshore .r-faq .title-center h3::after {
+        width: 230px;
+    }
+    #offshore .r-faq .title-center h3 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    #offshore .r-cooperate .step.step-1 .inner{
+        justify-content: flex-start;
+    }
+    #offshore .r-cooperate .step.step-1 .inner .content{
+        margin-left: 39px;
+        margin-bottom: 39px;
+    }
+    #offshore .r-cooperate .step.step-1 .inner .image {
+        margin-left: 93px;
+    }
+    #offshore .r-cooperate .step.step-1 .inner .number::after,
+    #offshore .r-cooperate .step.step-2 .inner .number::after{
+        display: none;
+    }
+}
+@media (max-width: 991px){
+    #offshore .title-left h3,
+    #offshore .title-center h3 {
+        font-size: 30px;
+    }
+    #offshore .r-big-banner .box .inner h3 {
+        font-size: 20px;
+        line-height: 30px;
+        padding-right: 0;
+    }
+    #offshore .r-service .box .icon{
+        svg{
+            width: 30px;
+        }
+    }
+    #offshore .r-technology .box h3 {
+        font-size: 20px;
+    }
+    #offshore .r-technology .box ul li {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+    #offshore .r-cooperate .step .inner .content h3 {
+        font-size: 30px;
+    }
+    #offshore .r-reason h1 {
+        font-size: 40px;
+    }
+    #offshore .r-reason .box h3 {
+        font-size: 20px;
+    }
+    #offshore .r-reason .box .number {
+        font-size: 50px;
+    }
+    #offshore .r-reason .box {
+        margin-bottom: 50px;
+    }
+    #offshore .r-step .step-carousel .item .top .text,
+    #offshore .r-step .step-carousel .item .top .number {
+        font-size: 30px;
+    }
+    #offshore .r-step{
+        padding-bottom: 70px;
+    }
+}
+
+@media (max-width: 767px){
+    #offshore .r-contact {
+        margin-top: 70px;
+    }
+    #offshore .r-faq .title-center h3::after {
+        width: 23px;
+        bottom: -8px;
+        height: 1px;
+    }
+    #offshore .r-faq .title-center h3 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    #offshore .r-reason {
+        margin-top: 40px;
+    }
+    #offshore .r-archivement {
+        margin-top: 50px;
+    }
+    #offshore .r-archivement .row > div {
+        margin-bottom: 20px;
+    }
+    #offshore .r-archivement .title {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    #offshore .r-service .box h5 {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    #offshore .r-service .box img{
+        width: 70px;
+    }
+    #offshore .r-service h3.title {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    #offshore .r-bring .box .image img{
+        width: 100%;
+    }
+    #offshore .r-bring .box .content h3 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    #offshore .r-what .box .content h3 {
+        font-size: 18px;
+        line-height: 28px;
+        margin-bottom: 20px;
+        margin-top: 0;
+    }
+    #offshore .r-page-title {
+        margin-top: -48px;
+    }
+    #offshore .r-page-title h3 {
+        padding: 10px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+    #offshore .r-what .box .image img{
+        width: 100%;
+    }
+    #offshore .r-faq .title-center {
+        margin-bottom: 30px;
+    }
+    #offshore .r-faq .card .card-body {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    #offshore .r-faq .card .card-body{
+        padding-right: 0;
+    }
+    #offshore .title-left h3, #offshore .title-center h3 {
+        font-size: 18px;
+    }
+    #offshore .title-left .desc, #offshore .title-center .desc {
+        font-size: 14px;
+    }
+    #offshore .r-service {
+        padding: 50px 0 25px;
+    }
+    #offshore .r-service .row > div {
+        margin-bottom: 15px;
+    }
+    #offshore .r-service .box h3 {
+        font-size: 14px;
+    }
+    #offshore .r-technology {
+        padding: 30px 0;
+    }
+    #offshore .r-cooperate {
+        padding: 50px 0 0px;
+    }
+    #offshore .r-cooperate .title-left {
+        margin-bottom: 20px;
+    }
+    #offshore .r-cooperate .step .inner .number {
+        font-size: 16px;
+        width: 30px;
+        height: 30px;
+    }
+     #offshore .r-cooperate .step.step-1 .inner .number {
+        margin-left: 0;
+        margin-top: 0;
+    }
+    #offshore .r-cooperate .step.step-1 .inner .content {
+        margin-left: 0;
+        margin-bottom: 0;
+        margin-top: 20px;
+    }
+    #offshore .r-cooperate .step .inner .content p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    #offshore .r-cooperate .step .inner .content h3 {
+        font-size: 18px;
+    }
+    #offshore .r-cooperate .step.step-1 .inner .image {
+        margin-left: 0;
+    }
+    #offshore .r-cooperate .step.step-1 {
+        padding-bottom: 40px;
+    }
+    #offshore .r-cooperate .step.step-2 .inner .number {
+        margin-left: 0;
+    }
+    #offshore .r-cooperate .step.step-2 .inner .content {
+        margin-top: 20px;
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+    #offshore .r-cooperate .step.step-2 .inner .image {
+        margin-left: 0;
+    }
+    #offshore .r-cooperate .step.step-2 .inner .image .box .top h5 {
+        font-size: 16px;
+    }
+    #offshore .r-cooperate .step.step-2 .inner .image .box .top p {
+        font-size: 14px;
+    }
+    #offshore .r-cooperate .step.step-2 .inner .image{
+        .col-12{
+            margin-bottom: 15px;
+        }
+    }
+    #offshore .r-reason{
+        .number-1{
+            order: 1;
+        }
+        .number-2{
+            order: 2;
+        }
+        .number-3{
+            order: 3;
+        }
+        .number-4{
+            order: 4;
+        }
+        .number-5{
+            order: 5;
+        }
+        .number-6{
+            order: 6;
+        }
+    }
+    #offshore .r-reason h1 {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    #offshore .r-reason .box h3 {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    #offshore .r-reason .box .number {
+        font-size: 30px;
+        margin-right: 10px;
+    }
+    #offshore .r-reason .box {
+        margin-bottom: 20px;
+    }
+    #offshore .r-reason {
+        padding: 60px 0 40px;
+    }
+    #offshore .r-step .step-carousel {
+        padding-right: 0;
+    }
+    #offshore .r-step {
+        padding: 50px 0 227px;
+    }
+    #offshore .r-step .title-center {
+        margin-bottom: 40px;
+    }
+    #offshore .r-step .title-center .desc {
+        font-size: 14px;
+    }
+    #offshore .r-step .step-carousel .item h3 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    #offshore .r-step {
+        padding-bottom: 40px;
+    }
+    #offshore .r-step .step-carousel .item .top {
+        margin-bottom: 15px;
+    }
+    #offshore .r-step .step-carousel .item .top .text, #offshore .r-step .step-carousel .item .top .number {
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,343 @@
+.r-contact{
+    margin-top: 122px;
+    padding: 148px 0;
+    background: url("../images/contact-bg.png") no-repeat center;
+    background-size: cover;
+    .title-left{
+        max-width: 682px;
+        margin-bottom: 27px !important;
+        h3{
+            font-size: 56px !important;
+            font-weight: 700 !important;
+            color: $main-color;
+            text-transform: uppercase;
+            margin-bottom: 43px !important;
+            position: relative;
+            color: #fff !important;
+            &::after{
+                content: "";
+                position: absolute;
+                left: 0;
+                bottom: -11px;
+                width: 48px;
+                height: 4px;
+                background-color: #fff !important;
+                z-index: 1;
+            }
+        }
+        .desc{
+            font-size: 20px !important;
+            font-weight: 600;
+            color: #fff !important;
+            line-height: 32px;
+        }
+    }
+    .contact-box{
+        padding: 78px 82px 13px;
+        background: url("../images/contactbox-bg.png") no-repeat center;
+        background-size: cover;
+        .phone{
+            color: #fff;
+            font-weight: 900;
+            font-size: 40px;
+            line-height: 47px;
+            display: flex;
+            align-items: center;
+            margin-bottom: 3px;
+            svg{
+                margin-right: 12px;
+            }
+        }
+        .time{
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;
+            color: #fff;
+            display: flex;
+            .label{
+                margin-right: 18px;
+            }
+        }
+        .btn-contact{
+            border-radius: 5px;
+            color: #0063AA;
+            background-color: #fff;
+            padding: 30px 23px;
+            display: flex;
+            align-items: center;
+            font-size: 32px;
+            font-weight: 700;
+            margin-bottom: 24px;
+            margin-top: 47px;
+            width: 667px;
+            max-width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            justify-content: center;
+            svg{
+                margin-left: 81px;
+            }
+        }
+    }
+}
+#footer{
+    color: #fff;
+    background: url("../images/footer-bg.png") no-repeat center;
+    background-size: cover;
+    .container-fluid{
+        width: 1740px;
+        max-width: 100%;
+    }
+    .main{
+        padding: 219px 0 133px;
+        .col-social{
+            padding-left: 88px;
+        }
+        .col-service{
+            padding-left: 171px;
+        }
+        .col-menu{
+            padding-left: 83px;
+        }
+        .policy{
+            margin-top: 76px;
+            white-space: nowrap;
+            a{
+                color: #fff;
+                font-size: 14px;
+                display: inline-block;
+                letter-spacing: 0.01em;
+                text-decoration: underline;
+                position: relative;
+                z-index: 1;
+                + a{
+                    margin-left: 48px;
+                }
+            }
+        }
+        .social-link{
+            ul{
+                display: flex;
+                li{
+                    margin-right: 16px;
+                    margin-bottom: 16px;
+                }
+            }
+        }
+        .logo{
+            display: block;
+            margin-bottom: 97px;
+        }
+        h3.title{
+            font-size: 24px;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            margin-bottom: 48px;
+            svg{
+                margin-left: 8px;
+            }
+        }
+        ul{
+            &.link-list{
+                margin-top: -6px;
+                li{
+                    margin-bottom: 15px;
+                }
+            }
+            li{
+                display: flex;
+                font-size: 16px;
+                font-weight: 500;
+                color: rgba(255,255,255,0.68);
+                line-height: 25px;
+                margin-bottom: 17px;
+                a{
+                    font-size: 16px;
+                    font-weight: 500;
+                    color: rgba(255,255,255,0.68);
+                    line-height: 25px;
+                    &:hover{
+                        color: #fff;
+                    }
+                }
+                .icon{
+                    margin-right: 11px;
+                }
+            }
+        }
+    }
+    .copyright{
+        text-align: center;
+        p{
+            font-size: 16px;
+            border-top: 1px solid rgba(255,255,255,0.3);
+            padding: 24px;
+            margin-bottom: 0 !important;
+        }
+    }
+}
+@media (max-width: 1440px){
+    #footer .logo img{
+        max-width: 70%;
+    }
+    #footer .main .col-social,
+    #footer .main .col-service,
+    #footer .main .col-menu{
+        padding-left: 7px;
+    }
+    #footer .main .logo {
+        margin-bottom: 128px;
+        height: 80px;
+    }
+}
+@media (max-width: 1199px){
+    #footer .main {
+        padding: 80px 0;
+    }
+    #footer .main .logo{
+        height: auto;
+        margin-bottom: 60px;
+    }
+    .r-contact .title-left h3 {
+        font-size: 30px !important;
+        margin-bottom: 35px !important;
+    }
+    .r-contact .title-left .desc {
+        font-size: 14px !important;
+        line-height: 24px;
+    }
+    .r-contact .contact-box .phone {
+        font-size: 28px;
+        line-height: 38px;
+    }
+    .r-contact .contact-box .btn-contact{
+        width: 300px;
+        font-size: 18px;
+        padding: 10px 12px;
+    }
+    .r-contact .contact-box .btn-contact svg {
+        margin-left: 25px;
+        width: 40px;
+    }
+    
+}
+@media (max-width: 991px){
+    #footer .logo img {
+        max-width: 25%;
+    }
+    .r-contact {
+        margin-top: 80px;
+        padding: 100px 0;
+    }
+}
+@media (max-width: 767px){
+    .r-contact .contact-box .phone svg {
+        width: 20px;
+    }
+    .r-contact .contact-box .phone {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .r-contact {
+        margin-top: 50px;
+        padding: 50px 0;
+    }
+    .r-contact .title-left .desc {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .r-contact .title-left h3::after {
+        bottom: -4px !important;
+        width: 14px !important;
+        height: 1px !important;
+    }
+    .r-contact .title-left .desc {
+        font-size: 14px !important;
+        line-height: 24px;
+    }
+    .r-contact .contact-box{
+        flex-direction: column;
+        padding: 20px;
+        border-radius: 7px;
+    }
+    .r-contact .title-left h3{
+        font-size: 18px !important;
+    }
+    .r-contact .title-left .desc{
+        padding-right: 0 !important;
+    }
+    .r-contact .title-left h3{
+        margin-bottom: 8px !important;
+    }
+    .r-contact .contact-box .btn-contact{
+        font-size: 14px;
+        min-width: auto;
+        padding: 7.5px 17px;
+    }
+    .r-contact .contact-box .btn-contact svg {
+        width: 16px;
+    }
+    #footer .main {
+        padding: 86px 0 36px;
+    }
+    #footer .main h3.title {
+        font-size: 14px;
+        margin-bottom: 13px;
+    }
+    #footer .main .social-link ul li {
+        margin-right: 11px;
+        margin-bottom: 11px;
+    }
+    #footer .main ul li a svg{
+        width: 20px;
+    }
+    #footer .main .logo {
+        margin-bottom: 38px;
+    }
+    #footer .main h3.title svg {
+        margin-left: 5px;
+        width: 22px;
+    }
+    #footer .main ul li,
+    #footer .main ul li a{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    #footer .main ul li .icon svg{
+        width: 16px;
+    }
+    #footer .social-mobile h3.title{
+        margin-bottom: 0;
+    }
+    #footer .logo img{
+        width: 119px;
+    }
+    #footer .container-fluid {
+        padding: 0 25px;
+    }
+    #footer .main ul li{
+        margin-bottom: 4px;
+    }
+    #footer .main .col-social{
+        margin-top: 17px;
+        margin-bottom: 20px;
+    }
+    #footer .main ul.link-list li {
+        margin-bottom: 3px;
+    }
+    #footer .main .col-service .title,
+    #footer .main .col-menu .title{
+        margin-bottom: 20px;
+    }
+    #footer .main .policy {
+        margin-top: 29px;
+    }
+    #footer .main .policy a {
+        font-size: 16px;
+        display: block;
+    }
+    #footer .main .policy a + a {
+        margin-left: 0;
+        margin-top: 16px;
+    }
+}

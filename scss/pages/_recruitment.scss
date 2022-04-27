@@ -1,0 +1,244 @@
+#recruitment{
+    .r-big-banner{
+        width: calc(100% - 132px);
+        max-width: 100%;
+        margin-top: 33px;
+    }
+
+    .r-page-title{
+        margin-top: -190px;
+        h3{
+            background-color: #fff;
+            padding: 44.5px 40px;
+            color: $main-color;
+            font-weight: 700;
+            font-size: 86px;
+            line-height: 101px;
+            text-align: center;
+            border-radius: 8px 8px 0px 0px;
+        }
+    }
+
+    .r-list-job{
+        margin-top: 113px;
+        h3.title{
+            font-weight: 800;
+            font-size: 56px;
+            line-height: 66px;
+            color: $main-color;
+            margin-bottom: 30px;
+        }
+        .item{
+            background: #F4F4F4;
+            border: 1px solid #D2D2D2;
+            padding: 59px 58px 53px;
+            border-radius: 8px;
+            position: relative;
+            + .item{
+                margin-top: 24px;
+            }
+            .name{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-bottom: 33px;
+                h4{
+                    font-weight: 700;
+                    font-size: 48px;
+                    line-height: 56px;
+                    color: #404040;
+                }
+                .label{
+                    font-weight: 700;
+                    font-size: 33.8673px;
+                    line-height: 40px;
+                    color: #fff;
+                    border-radius: 4px;
+                    padding: 12px 34px;
+                    &.hot{
+                        background: #FF6071;
+                    }
+                }
+            }
+            ul{
+                li{
+                    display: flex;
+                    align-items: center;
+                    + li{
+                        margin-top: 24px;
+                    }
+                    .icon{
+                        margin-right: 25px;
+                    }
+                    span{
+                        font-weight: 500;
+                        font-size: 40px;
+                        line-height: 47px;
+                        color: #777;
+                    }
+                }
+            }
+            .apply-now{
+                display: flex;
+                align-items: center;
+                position: absolute;
+                right: 59px;
+                bottom: 55px;
+                font-weight: 500;
+                font-size: 40px;
+                line-height: 24px;
+                color: $main-color;
+                svg{
+                    margin-left: 33px;
+                }
+            }
+        }
+        .see-more{
+            display: inline-block;
+            background: $main-color;
+            color: #fff;
+            font-size: 32px;
+            font-weight: 400;
+            border-radius: 5px;
+            padding: 33px 33px 28px;
+            margin-top: 114px;
+            width: 667px;
+            max-width: 100%;
+            &:hover{
+                background: $sub-color;
+            }
+            svg{
+                margin-left: 74px;
+            }
+        }
+    }
+
+    .r-contact{
+        margin-top: 222px;
+    }
+}
+
+@media (max-width: 1366px){
+    #recruitment .r-big-banner{
+        width: 100%;
+    }
+}
+
+@media (max-width: 1199px){
+    #recruitment .r-list-job .item .apply-now svg {
+        width: 40px;
+    }
+    #recruitment .r-list-job .item .apply-now {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    #recruitment .r-list-job .item ul li + li {
+        margin-top: 15px;
+    }
+    #recruitment .r-list-job .item ul li span {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    #recruitment .r-list-job .item .name .label {
+        font-size: 20px;
+        line-height: 30px;
+        padding: 5px 25px;
+    }
+    #recruitment .r-list-job .item .name h4 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+    #recruitment .r-list-job h3.title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    #recruitment .r-list-job .see-more {
+        font-size: 18px;
+        padding: 15px 33px 15px;
+        width: 367px;
+    }
+    #recruitment .r-list-job .see-more svg {
+        width: 40px;
+    }
+    #recruitment .r-big-banner {
+        margin-top: 0;
+    }
+    #recruitment .r-page-title {
+        margin-top: -89px;
+    }
+    #recruitment .r-page-title h3 {
+        padding: 25px;
+        font-size: 30px;
+        line-height: 40px;
+    }
+}
+
+@media (max-width: 991px){
+    #recruitment .r-big-banner .box .inner h3 {
+        font-size: 20px;
+        line-height: 30px;
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 767px){
+    #recruitment .r-contact {
+        margin-top: 50px;
+    }
+    #recruitment .r-list-job .see-more{
+        margin-top: 30px;
+    }
+    #recruitment .r-list-job .item ul li + li {
+        margin-top: 10px;
+    }
+    #recruitment .r-list-job .item .name{
+        margin-bottom: 10px;
+    }
+    #recruitment .r-list-job .item ul li span {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    #recruitment .r-list-job .item ul li .icon{
+        margin-right: 10px;
+        img{
+            width: 25px;
+        }
+    }
+    #recruitment .r-list-job .item .apply-now svg {
+        width: 25px;
+        margin-left: 10px;
+    }
+    #recruitment .r-list-job .item .apply-now {
+        position: static;
+        margin-top: 15px;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    #recruitment .r-list-job .item .name .label {
+        font-size: 14px;
+        line-height: 24px;
+        padding: 3px 20px;
+    }
+    #recruitment .r-list-job .item .name h4 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    #recruitment .r-list-job .item{
+        padding: 20px;
+    }
+    #recruitment .r-list-job h3.title {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    #recruitment .r-list-job {
+        margin-top: 40px;
+    }
+    #recruitment .r-page-title {
+        margin-top: -48px;
+    }
+    #recruitment .r-page-title h3 {
+        padding: 10px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+}

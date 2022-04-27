@@ -1,0 +1,259 @@
+#project{
+    .row{
+        margin-left: -15px;
+        margin-right: -15px;
+        > div{
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+    }
+
+    .r-top{
+        margin-top: 115px;
+        .title-left{
+            h3{
+                font-size: 48px;
+                font-weight: 900;
+                color: $main-color;
+                position: relative;
+                margin-bottom: 40px;
+                &::after{
+                    content: "";
+                    position: absolute;
+                    left: 0;
+                    bottom: -11px;
+                    width: 48px;
+                    height: 4px;
+                    background-color: $main-color;
+                    z-index: 1;
+                }
+            }
+            .desc{
+                font-size: 18px;
+                color: #505050;
+            }
+        }
+        .search{
+            position: relative;
+            text-align: right;
+            input{
+                background: #FFFFFF;
+                border: 1px solid #E2E2E2;
+                border-radius: 29px;
+                width: 445px;
+                height: 56px;
+                padding: 0 23px;
+                max-width: 100%;
+                font-size: 16px;
+                color: #A7A7A7;
+                &:focus{
+                    outline: none;
+                }
+                &::placeholder{
+                    color: inherit;
+                }
+            }
+            button{
+                position: absolute;
+                right: 0;
+                top: 0;
+                background: transparent;
+                border: none;
+                width: 49px;
+                height: 56px;
+                z-index: 1;
+                &:hover{
+                    path{
+                        stroke: $main-color;
+                    }
+                }
+            }
+        }
+    }
+
+    .r-tag{
+        margin-top: 32px;
+        h3{
+            font-size: 24px;
+            font-weight: 700;
+            color: #121212;
+            margin-bottom: 16px;
+        }
+        ul{
+            display: flex;
+            flex-wrap: wrap;
+            padding-right: 74px;
+            li{
+                margin-right: 8px;
+                margin-bottom: 8px;
+                &.active, &:hover{
+                    a{
+                        color: #fff;
+                        background-color: $main-color;
+                    }
+                }
+                a{
+                    font-size: 14px;
+                    color: #434343;
+                    background: #E2E2E2;
+                    border-radius: 55px;
+                    padding: 5px 24px 3px;
+                    display: inline-block;
+                }
+            }
+        }
+    }
+
+    .r-project-list{
+        margin-top: 40px;
+        margin-bottom: 0px;
+        .col-12{
+            margin-bottom: 30px;
+        }
+        .image{
+            border-radius: 18px;
+            display: block;
+            overflow: hidden;
+            &:hover{
+                img{
+                    transform: scale(1.1);
+                }
+            }
+            img{
+                width: 100%;
+                border-radius: 18px;
+                transition: .4s all;
+            }
+        }
+        .content{
+            margin-top: 25px;
+            .title{
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 21px;
+                color: #121212;
+                display: block;
+                margin-bottom: 7px;
+                &:hover{
+                    color: $main-color;
+                }
+            }
+            .tag{
+                display: flex;
+                flex-wrap: wrap;
+                margin-bottom: 8px;
+                li{
+                    margin-right: 8px;
+                    margin-bottom: 8px;
+                    &.active, &:hover{
+                        a{
+                            color: #fff;
+                            background-color: $main-color;
+                        }
+                    }
+                    a{
+                        font-size: 14px;
+                        color: #434343;
+                        background: #E2E2E2;
+                        border-radius: 55px;
+                        padding: 5px 24px 3px;
+                        display: inline-block;
+                    }
+                }
+            }
+            .desc{
+                font-size: 16px;
+                color: #313131;
+            }
+            .readmore{
+                display: inline-flex;
+                align-items: center;
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 24px;
+                color: #0063AA;
+                &:hover{
+                    svg{
+                        margin-left: 28px;
+                    }
+                }
+                svg{
+                    margin-left: 18px;
+                }
+            }
+        }
+        .see-more{
+            display: inline-block;
+            background: $main-color;
+            color: #fff;
+            font-size: 32px;
+            font-weight: 400;
+            border-radius: 5px;
+            padding: 33px 33px 28px;
+            margin-top: 88px;
+            width: 667px;
+            max-width: 100%;
+            &:hover{
+                background: $sub-color;
+            }
+            svg{
+                margin-left: 74px;
+            }
+        }
+    }
+
+    .r-contact{
+        margin-top: 80px;
+    }
+}
+
+@media (max-width: 1199px){
+    #project .r-project-list .see-more svg{
+        width: 40px;
+    }
+    #project .r-project-list .see-more {
+        font-size: 18px;
+        padding: 15px 33px 15px;
+        width: 367px;
+    }
+    #project .r-tag ul{
+        padding-right: 0;
+    }
+    #project .r-top .title-left h3 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 767px){
+    #project .r-top {
+        margin-top: 30px;
+    }
+    #project .r-top .title-left .desc {
+        font-size: 14px;
+        br{
+            display: none;
+        }
+    }
+    #project .r-project-list .content .desc {
+        font-size: 14px;
+        br{
+            display: none;
+        }
+    }
+    #project .r-project-list .content .readmore{
+        font-size: 14px;
+    }
+    #project .r-top .search input{
+        width: 100%;
+    }
+    #project .r-tag .col-12{
+        margin-bottom: 30px;
+    }
+    #project .r-project-list {
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+    #project .r-project-list .see-more {
+        margin-top: 10px;
+    }
+}
