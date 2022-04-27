@@ -7143,6 +7143,13 @@ ul li {
     margin-bottom: 20px;
   }
 
+  #offshore .r-cooperate .step .inner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
   #offshore .r-cooperate .step .inner .number {
     font-size: 16px;
     width: 30px;
@@ -9459,6 +9466,9 @@ ul li {
       -ms-flex-align: center;
           align-items: center;
   margin-bottom: 3px;
+}
+.r-contact .contact-box .phone span {
+  color: #fff;
 }
 .r-contact .contact-box .phone svg {
   margin-right: 12px;
